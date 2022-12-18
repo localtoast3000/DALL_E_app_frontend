@@ -1,11 +1,7 @@
-import { purple, green } from "@mui/material/colors" 
+import { green, teal } from '@mui/material/colors';
 
 export const lightPalette = {
   mode: 'light',
-  primary: purple,
+  primary: teal,
   secondary: green,
-  // error:
-  // warning:
-  // info:
-  //success 
-}
+};
