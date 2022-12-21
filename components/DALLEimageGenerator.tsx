@@ -47,6 +47,7 @@ export default function DALLEImageGenerator({ styles }: Props) {
           onChange={(e) => setPrompt(e.target.value)}
           error={!errors.prompt ? false : true}
           helperText={!errors.prompt ? '' : errors.prompt}
+          variant='standard'
         />
         <Button
           variant='contained'
